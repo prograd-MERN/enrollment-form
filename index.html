@@ -10,7 +10,66 @@
 </head>
 <body>
    <form>
-
+    <h1>Enrollment</h1>
+    <label for="firstname">First Name :</label>
+    <input type="text" name="firstname" id="first-name" placeholder="Enter First name" required/>
+    <br><br>
+    <label for="lastname">Last Name :</label>
+    <input type="text" name="lastname" id="last-name" placeholder="Enter last name" required/>
+    <br><br>
+    <label for="registernumber">Register Number :</label>
+    <input type="tel" name="registernumber" id="register-number" placeholder="Enter register number" required/>
+    <br><br>
+    <label for="mobilenumber">Mobile number :</label>
+    <input type="tel" name="mobilenumber" id="mobile-number" placeholder="Enter Mobile number" required/>
+    <br><br>
+    <h3>Gender :</h3>
+    <input type="radio" name="option" id="male" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" name="option" id="female" value="female">
+  <label for="female">Female</label>
+  <br><br>
+  <label for="email">Email :</label>
+  <input type="text" name="email" id="email" placeholder="Enter your email" required/>
+  <br><br>
+  <label for="dept">Department :</label>
+  <select name="dept" id="dept">
+    <option value="cse">CSE</option>
+    <option value="ece">ECE</option>
+    <option value="eee">EEE</option>
+    <option value="bme">BME</option>
+    <option value="mech">MECH</option>
+  </select>
+  <br><br>
+  <label for="year">Year :</label>
+  <select name="year" id="year">
+    <option value="first">1</option>
+    <option value="second">2</option>
+    <option value="third">3</option>
+    <option value="fourth">4</option>
+  </select>
+  <br><br>
+  <h3>Languages known</h3><br>
+  <input type="checkbox" name="c" id="lang" />
+  <label for="languages">C</label><br>
+  <input type="checkbox" name="c++" id="lang" />
+  <label for="languages">C++</label><br>
+  <input type="checkbox" name="java" id="lang" />
+  <label for="languages">JAVA</label><br>
+  <input type="checkbox" name="python" id="lang" />
+  <label for="languages">PYTHON</label><br><br>
+  <h3>Available slots</h3><br>
+  <input type="checkbox" name="10am" id="lang" />
+  <label for="languages">10am</label><br>
+  <input type="checkbox" name="2pm" id="lang" />
+  <label for="languages">2pm</label><br>
+  <input type="checkbox" name="5pm" id="lang" />
+  <label for="languages">5pm</label><br><br>
+  <lable for="resume"><h3>Resume :</h3></lable>
+  <h5>(only pdf)</h5>
+    <input type="file" name="resume" id="resume" required/>
+    <br><br>
+  <button id="button">SUBMIT</button>
    </form> 
 </body>
 </html>
